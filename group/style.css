@@ -1,0 +1,590 @@
+/* Rico’s Tacos brand fonts from Google Fonts - more at https://fonts.google.com 
+font-family: 'Sarala', sans-serif;
+font-family: 'Rasa', serif;
+font-family: 'Over the Rainbow', cursive;
+font-family: 'Sue Ellen Francisco', cursive; */
+
+/* Coolors By Fabrizio Bianchi */
+/* Rico’s Tacos brand colors:
+#DE473A (vermilion)
+#C4B391 (khaki)
+#673731 (van dyke brown)
+#465152 (outer space)
+#C98855 (raw sienna)
+*/
+
+body.debm {
+  width: 1020px;
+  margin: auto;
+}
+a:hover {
+  cursor: pointer;
+}
+.navdm {
+  background-color: #DE473A; /* vermilion */
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 105px; 
+  width: 1020px;
+  margin: auto;
+  padding: 0px;
+  z-index: 3;
+}
+.navdm ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.navdm a {
+  color: #ffffff; /* white */
+  font-family: 'Sue Ellen Francisco', cursive;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+.leftdm, .centerdm, .rightdm {
+  display: flex;
+}
+.leftdm a { 
+  align-content: flex-start;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 43px; 
+}
+.rightdm a {
+  align-content: flex-end;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 40px 0px 0px; 
+}
+.navdm a:hover {
+  color: #673731; /* van dyke brown */
+}
+.logodm {
+  color: #ffffff; /* white */
+  text-align: center;
+  font-family: 'Over the Rainbow', cursive;
+  font-weight: bold;
+  font-size: 80px;
+  text-shadow: 2px 2px #465152; /* outer space */
+  margin: 0px;
+  padding: 0px; 
+}
+span.apostrophedm {
+  font-size: 65px;
+}
+/* hero div style begins here */
+.herodm {
+  width: 100%;
+  background-image: url("images/tj-dragotta-unsplasha.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;  
+  position: relative;
+  margin-top: 0px;
+  padding-bottom: 415px;
+}
+.herocopydm {
+  display: flex;
+  justify-content: space-between;
+}
+.truckservesboxdm, .salsacopylinesdm {
+  margin: 100px 20px 0px 0px;
+  flex: 1;
+}
+.truckservesboxdm p {
+  color: #C4B391; /* khaki */
+  font-family: 'Rasa', serif;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: .06em;
+  line-height: 35px;
+  text-shadow: 1px 1px #465152; /* outer space */
+  margin: 75px 0px 0px 40px;  
+  padding: 0px;
+  width: 220px;
+}
+.truckservesboxdm p span {
+  color: #ffffff; /* white */
+  font-size: 28px;
+}
+.salsacopydm h2 {
+  font-family: 'Sue Ellen Francisco', cursive;
+  text-align: center;
+  color: #C4B391; /* khaki */
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  line-height: 160%;
+  margin: 65px 0px 0px 85px;
+  padding: 0px;
+}
+.linesdm {
+  /* wiggly lines - this clips edges so the lines terminate nicely */
+  overflow: hidden;
+  position: relative;
+  width: 200px;
+  height: 50px;
+  margin: 20px 0px 0px 225px;
+  padding: 0px 0px 0px 0px;
+}
+.ellipsedm {
+  position: absolute;
+  background: radial-gradient(ellipse, transparent, transparent 7px, #ffffff 7px, #ffffff 10px, transparent 11px);
+  background-size: 36px 40px;
+  width: 100px;
+  height: 20px;
+}
+.ellipsetwodm {
+  top: 20px;
+  left: 18px;
+  background-position: 0px -20px;
+}
+.colorbardm {
+  background-color: #DE473A; /* vermilion */
+  margin: 0px;
+  padding: 10px 0px 30px 0px;
+}
+.colorbartwodm {
+  background-color: #C98855; /* raw sienna */
+  text-align: center;
+  margin: 0px;
+  padding: 10px 0px 30px 0px;
+}
+.nycdm {
+  width: 100%;
+  background-image: url("images/christopher-czermak-unsplash.jpeg");
+  background-size: cover; 
+  background-position: top;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 0px;
+  padding-bottom: 320px;
+}
+.workdm {
+  width: 100%;
+  background-image: url("images/nick-karvounis-unsplash.jpg");
+  background-size: cover;     
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+  margin-top: 0px;
+  padding-bottom: 130px;
+  z-index: 1;
+}
+/* fadeout bkgd on text box */
+.nycboxdm p, .workboxdm p, .locationboxdm p {
+  color: #ffffff; /* white */
+  font-family: 'Rasa', serif;
+  font-size: 22px;
+  text-align: left;
+  letter-spacing: .06em;
+  line-height: 35px;
+  text-shadow: 1px 1px #465152; /* outer space */
+  text-decoration: none;
+  background-color: rgb(0,0,0); /* black - browser fallback */
+  background-color: rgba(0,0,0, 0.3); /* gray - see-through */
+  margin: 30px 0px 0px 20px;  
+  padding: 20px 15px 20px 30px; 
+}
+.workboxdm h4, .nycboxdm h4, .locationboxdm h4 {
+  text-align: left;
+  margin:  0px 25px 30px 0px; 
+  padding: 10px 25px 0px 0px; 
+}
+.nycboxdm h4 a, .workboxdm h4 a, .locationboxdm h4 a {
+  color: #ffffff; /* white */
+  background-color: #DE473A; /* vermilion */
+  font-family: 'Sarala', sans-serif;
+  font-size: 14px;
+  letter-spacing: .15rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 30px 10px 32px;
+}
+.nycboxdm h4 a:hover, .workboxdm h4 a:hover, .locationboxdm h4 a:hover {
+  color: #ffffff; /* white */
+  background-color: #673731; /* van dyke brown */
+}
+.nycboxdm p {
+  width: 345px;
+}
+.workboxdm p {
+  width: 280px;
+}
+.locationboxdm p {
+  width: 145px;
+}
+.nycboxdm, .workboxdm {
+  padding: 20px 0px 0px 20px;
+}
+.locationboxdm  {
+  padding: 0px 0px 0px 20px;
+}
+.backtotopdm a {
+  color: #C4B391; /* khaki */
+  border: 1px solid #C4B391; /* khaki */
+  font-family: 'Sarala', sans-serif;
+  font-size: 10px;
+  font-weight: lighter;
+  letter-spacing: .2em;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0px 5px 0px 7px;
+}
+.backtotopdm {
+  position: absolute;
+  bottom: -9px;
+  left: 16px;
+}
+.backtotopdm a {
+  background-color: rgb(0,0,0); /* black - browser fallback */
+  background-color: rgba(0,0,0, 0.3); /* gray - see-through */
+}
+.backtotopdm a:hover {
+  background-color: #465152; /* outer space */
+}
+.creditdm h6 a {
+  color: #C4B391; /* khaki */
+  font-family: sans-serif;
+  font-size: 9px;
+  font-weight: 100;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.creditdm a:hover {
+  color: #ffffff; /* white */
+}
+.creditdm  {
+  position: absolute;
+  bottom: -14px;
+  right: 15px;
+}
+/*menu css starts here*/
+
+.mrmaria {background-color: #ffffff;
+  margin: auto;
+  width: 1020px;
+}
+.mr h1 {font-size: 40px;
+  font-family: 'Over the Rainbow', cursive;
+  color: white;
+  text-align: center;
+  background-color: #465152;
+  padding: 5px 0px 5px 0px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+.mr h2 {font-size: 20px;
+  font-family: 'Sarala', sans-serif;
+  color: white; margin: 
+    25px 0px 0px 0px; 
+  padding: 0px;
+}
+.mr p {font-size: 20px;
+  font-family: 'Rasa', serif;
+  color: white; padding-top: 1px;
+  margin: 3px 20px 30px 20px;
+}
+.mrtacos, .mrsides, .mrdessert, .mrdrinks {display: flex;
+  flex;1;
+}
+.mrtacos {background-image: url(images/tacosback.jpg);
+  background-size: cover;
+}
+.mrsides {background-image: url(images/sides.jpg);
+  background-size: cover;
+}
+.mrdrinks {background-image: url(images/drinks.jpg);
+  background-size: cover;
+}
+.mrdessert {background-image: url(images/dessert2.jpg);
+  background-size: cover;
+  margin-bottom: 30px;
+}
+.mr span {color: #DE473A;
+  font-size: 20px;
+  padding-left: 5px;
+}
+.mrbox { margin: 30px; padding: 20px;
+  background-color: rgba(0,0,0,0.5);
+  width: 400px;
+}
+.mrbox2 { margin: 30px; padding: 20px;
+  background-color: rgba(0,0,0,.6);
+  width: 400px;
+}
+.mrbox3 { margin: 30px ; padding: 20px;
+  background-color: rgba(0,0,0,0.5);
+  width: 400px;
+}
+.mrbox4 { margin: 30px; padding: 20px;
+  background-color: rgba(355,292,203,0.4);
+  width: 400px;
+}
+.mrbox4 h2, .mrbox4 p {color: #673731;
+}
+.mrsides span {color: #C4B391;
+}
+.sidemr { 
+  position: absolute;
+  top: -9px;
+  left: 290px;
+  text-align: center;
+  z-index: 1;
+}
+.mrcup { 
+  position: absolute;
+  top: -4px;
+  left: 650px;
+  text-align: center;
+  z-index: 1;
+}
+.mrcupcake {position: absolute;
+  top: 2px;
+  left: 275px;
+  text-align: center;
+  z-index: 1;
+}
+.mrrelative {position: relative;
+}
+.mrspace {margin-bottom: 110px;
+}
+/*menu css ends here */
+
+/*location css starts here */
+/*------!!!!!!!! LOCATION IMAGE------!!!!!!! */
+
+.location-image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;  
+  padding-top:10%    
+}
+
+/*------!!!!!!!! LOCATION LEFT SIDE CONTENT------!!!!!!! */
+.location-parent {
+  display: flex;
+}
+
+
+.location-left-column{
+  flex: 1;
+  padding: 2%;
+  margin-top: 75px;
+  margin-bottom: 20px;
+  margin-left:13px;
+  background-color: #d1d7d7;
+}
+
+.location-left-column h1{
+  font-family: 'Rasa', serif;
+  text-align: center;
+  font-size: 40px;
+  color:#de473a;
+
+
+}
+
+.location-left-column h3{
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.location-hours h4{
+  font-family: 'Sarala', serif;
+  text-align: center;
+  font-weight: 100;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.location-hours{
+  padding-top:50px;
+}
+
+.location-left-column, .maps {
+  padding: 2%;
+}
+
+
+.location-contact{
+  padding-top:50px;
+  text-align:center;
+  font-family: 'Sarala', serif;
+  font-size: 23px;
+  color:#673731;
+
+}
+
+/* ---!!!!LOCATION TABLE BUSINESS HOURS---!!!!*/
+
+table, tr, th {
+  text-align: right;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  margin:auto;
+
+}
+
+td{
+  font-size: 10pt;
+}
+
+/*-----!!!!!! LOCATION RIGHT SIDE CONTENT-------!!!!!!! */
+
+.maps {
+  flex: 3;
+  margin-top: 60px;
+}
+
+.map-box {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border:2px solid #de473a;   
+}
+
+
+.location {
+  padding: 2%;
+  width: 40%;
+}
+
+.location h3{
+  font-family: 'Sarala', serif;
+  font-size: 20px;
+  color:#673731;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.location p {
+  color:grey;
+}
+
+
+/* -----!!!!!! LOCATION RESPONSIVE GOOGLE MAPS ---!!!!*/
+.googlemap {
+  position: relative;
+  padding-bottom: 75%; 
+  height: 0;
+  overflow: hidden;
+}
+.googlemap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+/* Location css ends here */
+
+/* About css starts here */
+.kk h1{
+  font-family: 'Rasa', serif;
+}
+
+.kk p{
+  font-family: 'Sarala', sans-serif;
+}
+
+.img {
+  width: 100%;
+}
+
+.kkhistory {
+  padding: 125px 0px 0px 0px;
+  margin: 0 0 0 0;
+  background-image: url("images/heroabout.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 800px;
+}
+
+.kkhistory h1{
+  padding: 10px 0px 10px 0px;
+  margin: 0 0 0 0;
+  text-align: center;
+  width: 400px;
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+}
+
+.kkhistorytext {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  background-color: #DE473A;
+}
+
+
+.kktimlinetitle {
+  padding-top: 30px;
+}
+
+.kkhistory img{
+  width: 100%;
+}
+
+.kkhistory p{
+  text-align: center;
+}
+
+.kktimeline {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #ACACAC;
+  width: 100%;
+}
+
+.kktimeline h1{
+  padding-top: 30px;
+}
+
+.kkawards {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.kkawards h1{
+  padding-bottom: 25px;
+}
+
+
+.kkawardtext{
+  display: flex;
+  justify-content: space-around;
+}
+
+.kkawardimages {
+  display: flex
+}
+.kkawardimages img{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 80%;
+}
+
+.kkawardtext p{
+  width: 20%;
+}
+/* About css ends here * /
