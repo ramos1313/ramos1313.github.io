@@ -1,0 +1,405 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com 
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Give You Glory', cursive;
+
+*/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  width: 960px;
+  margin: auto;
+}
+
+/* index*/
+
+.nav { border: 1px solid #4d545c;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav ul {
+  list-style-type: none;
+  text-transform: uppercase;
+}
+.nav a {
+  text-decoration: none;
+}
+.left {
+  display: flex;
+  align-content: flex-start;
+  padding: 8px 15px 8px 15px;
+}
+.right {
+  display: flex;
+  align-content: flex-end;
+  padding: 8px 15px 8px 15px;
+}
+.left a {
+  color: #ff0000;
+  margin-right: 30px;
+}
+.right a {
+  color: #ff0000;
+  margin-left: 30px;
+}
+.nav h1 { font-size: 25px;
+  text-transform: uppercase;
+  margin: 0px;
+  padding-top: 10px;
+}
+.hero { background-image: url(images/streamweb2.jpeg);
+  background-size: 100%;
+  padding:410px 15px 10px 15px;
+  margin: 5px 0px 0px 0px;
+  background-position: center;
+}
+h2 {color: #ffffff;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.hero h6 a {
+  color: white;
+  border: 1px solid #FFFFFF;
+  font-weight: 100;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px 10px 5px 10px;
+  margin: 0px 0px 0px 0px;
+  background-color: #000000;
+}
+.line h2 {font-size: 24px;
+  font-family: 'Give You Glory', cursive;
+  text-transform: inherit;
+  color: #FFFFFF;
+  background-color: #c13f18;
+  text-align: center;
+  padding: 20px 80px 20px 80px;
+  margin: 5px 0px 5px 0px;
+}
+.parent {
+  border: 1px solid #FFFFFF;
+  display: flex;
+  align-content: flex-start;
+}
+.boxtwo {
+  background-image: url(images/snakehand.jpg);
+  background-size: cover;
+  flex: 1;
+  padding: 10px 15px 400px 20px;
+  text-align: left;
+  margin: 0%;
+  background-position: bottom;
+}
+.boxone {
+  background-image: url(images/camera.jpg);
+  background-size: cover;
+  flex: 1;
+  padding: 10px 15px 550px 20px;
+  text-align: left;  
+  margin-right: 5px;
+  background-position: center
+}
+
+.boxthree {padding: 0px 0px 30px 0px;
+}
+.message {padding-bottom: 100px;
+}
+
+
+/* contact */
+
+.conparent {display: flex;
+  flex: 1;
+  padding-top: 5px;
+}
+.map {
+  border: 1px solid #4d545c;
+  width: 600px;
+  height: 450px;
+  padding: 0px;
+  margin: 0px 10px 0px 0px;
+}
+.hours { padding: 10px 50px 1px 40px;
+  text-align: left;
+  color: #FFFFFF;
+  background-color: #3d666d;
+  width: 360px;
+  height: 440px;
+}
+.hours h6 {font-size: 20px;
+  font-weight:lighter;
+  font-family: 'Give You Glory', cursive;
+  text-transform: inherit;
+  padding: 5px 0px 0px 20px;
+  margin: 20px 0px 0px 0px;
+  border: 1px solid #fbe475;
+  color: #fbe475;
+}
+.hours h3 {font-size: 16px;
+  padding: 0px 0px 3px 20px;
+  color: #FFFFFF;
+}
+.conbox{ display: flex;
+flex-direction: column;
+flex: 1;
+padding: 0px 0px 0px 0px;
+margin: 0px 5px 0px 0px;
+}
+.contrio {display: flex;
+  margin: 10px 0px 0px 0px;
+}
+.shoe1 {margin: 0px 0px 10px 0px;
+  padding: 0px 0px 0px 0px;
+  background-image: url(images/flower.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  width: 250px;
+  height: 300px;
+  }
+
+.shoe2 {margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  background-image: url(images/dog.jpg);
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position:center;
+  height: 380px;
+}
+.subscribe {background-color: #e1f4cf;
+  background-image: url(images/clouds3.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #f3e9e3; 
+  padding: 40px 70px 40px 70px;
+  margin: 0px 0px 0px 5px;
+}
+.subscribe h2 {margin: 50px 0px 20px 0px;
+  color: #FFFFFF; 
+  font-size: 23px;
+  text-transform: inherit;
+}
+.subscribe p {margin: 0px 0px 20px 0px;
+}
+input {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  margin-top: 3px;
+}
+label {font-size: 15px;
+  color: #FFFFFF;
+}
+
+/* about */
+
+.biobox { display: flex;
+  flex: 1; 
+  margin-top: 5px;
+  padding: 0px;
+}
+.biophoto {padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  border: 1px solid #4d545c;
+  background-image: url(images/joegarcia2.jpg);
+  background-size: 145%;
+  background-repeat: no-repeat;
+  width: 600px; 
+  background-position: center;
+}
+.biostory p {padding: 0px 0px 0px 0px;
+  margin: 160px 20px 40px 40px;
+  width: 300px;
+  text-align: right;
+}
+.parentjoe {display: flex;
+}
+.joe1 {background-image: url(images/sun.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 400px 0px 0px 0px;
+  margin: 10px 0px 0px 10px;
+  flex: 1;
+}
+.joe2 {background-image: url(images/cat.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 400px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
+  flex: 1;
+}
+.biostory span {color: red;
+  font-size: 40px;
+  font-family: 'Give You Glory', cursive;
+  text-transform: inherit;}
+
+/* portfolio */
+
+.boxtwob {
+  background-image: url(images/bwtree.jpg);
+  background-size: cover;
+  flex: 1;
+  padding: 10px 15px 400px 20px;
+  text-align: right;
+  margin: 10px 0px 0px 0px;
+  background-position: bottom;
+}
+.boxoneb {
+  background-image: url(images/greentree.jpg);
+  background-size: cover;
+  flex: 1;
+  padding: 10px 15px 550px 20px;
+  text-align: left;  
+  margin: 10px 10px 0px 0px;
+  background-position: bottom;
+}
+.boxtwoc {
+  background-image: url(images/oldhouse2.jpg);
+  background-size: cover;
+  flex: 2;
+  padding: 10px 15px 340px 20px;
+  text-align: left;
+  margin: 10px 0px 0px 0px;
+  background-position: top;
+}
+.boxonec {
+  background-image: url(images/africa.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 1;
+  padding: 10px 15px 340px 20px;
+  text-align: left;  
+  margin: 10px 10px 0px 0px;
+  background-position: top ;
+}
+.boxtwod {
+  background-image: url(images/clouds3.jpg);
+  background-size: 100%;
+  flex: 1;
+  padding: 10px 15px 400px 20px;
+  text-align: right;
+  margin: 10px 0px 0px 0px;
+  background-position: bottom;
+}
+.boxoned {
+  background-image: url(images/arc2.jpg);
+  background-size: 100%;
+  flex: 1;
+  padding: 10px 15px 550px 20px;
+  text-align: left;  
+  margin: 10px 10px 0px 0px;
+  background-position: top;
+}
+.boxtwoa {
+  background-image: url(images/corey.jpg);
+  background-size: 100%;
+  flex: 1;
+  padding: 10px 15px 340px 20px;
+  text-align: left;
+  margin: 5px 0px 0px 0px;
+  background-position: top;
+}
+.boxonea {
+  background-image: url(images/flag2.jpg);
+  background-size: 100;
+  flex: 2;
+  padding: 10px 15px 340px 20px;
+  text-align: right;  
+  margin: 5px 10px 0px 0px;
+  background-position: center;
+}
+.boxtwoe {
+  background-image: url(images/bull2.jpg);
+  background-size: 100%;
+  flex: 1;
+  padding: 10px 15px 400px 20px;
+  text-align: right;
+  margin: 10px 0px 0px 0px;
+  background-position: center;
+}
+.boxonee {
+  background-image: url(images/treelake2.jpg);
+  background-size: 100%;
+  flex: 1;
+  padding: 10px 15px 550px 20px;
+  text-align: left;  
+  margin: 10px 10px 0px 0px;
+  background-position: top;
+}
+.boxtwoh {
+  background-image: url(images/stonebuilding3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 1.3;
+  padding: 10px 15px 340px 20px;
+  text-align: left;
+  margin: 10px 0px 0px 0px;
+  background-position: top;
+}
+.boxoneh {
+  background-image: url(images/colortrees3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 1;
+  padding: 10px 15px 340px 20px;
+  text-align: left;  
+  margin: 10px 10px 0px 0px;
+  background-position: center;
+}
+.boxtwof {
+  background-image: url(images/sunset3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 1;
+  padding: 10px 15px 400px 20px;
+  text-align: right;
+  margin: 10px 0px 0px 0px;
+  background-position: top;
+}
+.boxonef {
+  background-image: url(images/subway2.jpg);
+  background-size:cover;
+  flex: 1;
+  padding: 10px 15px 550px 20px;
+  text-align: left;  
+  margin: 10px 10px 0px 0px;
+  background-position: center;
+}
+.parent span { color: #ff0000;
+}
+/* current proj */
+
+.dinner { margin: 5px 0px 0px 0px;
+  padding: 540px 0px 0px 0px;
+  background-size: cover;
+  border: 1px solid #4d545c;
+  background-image: url(images/dinner2.jpg);
+}
+.dinnerb { margin: 10px 0px 0px 10px;
+  padding: 300px 257px 0px 0px;
+  background-size: cover;
+  border: 1px solid #4d545c;
+  background-image: url(images/arc2.jpg);
+}
+.dinnerd { margin: 10px 0px 0px 0px;
+  padding: 300px 460px 0px 0px;
+  background-size: cover;
+  border: 1px solid #4d545c;
+  background-image: url(images/flag2.jpg);
+}
+.dinnerc h3 {flex: 1; width: 200px;
+  margin: 0px 20px 0px 20px;
+  font-size: 14px; color: #000000;
+}
+.dinnerc h2 {font-size: 40px; 
+  color: #ff0000;
+  margin: 10px 10px 0px 20px; 
+  font-family: 'Give You Glory', cursive;
+  text-transform: inherit;
+  
+}
+.dinnerparent { display: flex;
+  flex: 1; 
+}
