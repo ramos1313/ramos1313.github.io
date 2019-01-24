@@ -1,0 +1,440 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+
+body {font-family: 'Lato', sans-serif;
+  width: 1260px;
+  margin: auto;
+}
+.parent {
+  display: flex;
+  align-content: flex-start;
+}
+/* nav bar*/
+
+.nav ul { background-color: whitesmoke;
+  list-style-type: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  margin: 5px 0px 0px 0px;
+}
+.nav a {text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 300;
+}
+.marco {font-size: 40px;
+text-align: left;
+margin: 10px 0px 0px 50px;
+}
+span {font-size: 30px;
+font-weight: 200;
+margin: 0px 0px 0px 10px;
+}
+
+/* end navbar */
+/* start contact*/
+.biobox { display: flex;
+  flex: 1; 
+  padding: 0px 0px 0px 0px;
+  margin: 80px 0px 0px 0px;
+}
+.biophoto {
+  background-image: url(images/portrait10.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0px 0px 0px 0px;
+  padding: 600px 600px 0px 0px;
+  
+}
+.biostory { width: 300px;
+margin: 0px 0px 0px 20px;
+padding: 0px 0px 0px 0px;
+}
+.biostory p { padding: 0px; margin: 0px;
+}
+/* end contact*/
+
+/* start portraits*/
+.box1p {
+  background-image: url(images/portrait1.jpeg);
+  background-size: cover;
+  flex: 2;
+  padding: 200px 0px 150px 0px;
+  text-align: right;
+  margin: 80px 10px 0px 0px;
+  background-position: top;
+}
+.box3p {
+  background-image: url(images/portrait4.jpeg);
+  background-size: 118%;
+  flex: 2;
+  padding: 0px 0px 0px 0px;
+  text-align: right;
+  margin: 80px 10px 0px 0px;
+  background-position: left;
+}
+.box4p {
+  background-image: url(images/porttrait6A.JPG);
+  background-size: 170%;
+  flex: 1;
+  padding: 0px 0px 0px 0px;
+  text-align: left;  
+  margin: 80px 0px 0px 0px;
+  background-position: top;
+}
+.box5p {
+  background-image: url(images/portrait11.jpeg);
+  background-size: 120%;
+  flex: 1;
+  padding: 200px 0px 150px 0px;
+  text-align: right;
+  margin: 10px 10px 0px 0px;
+  background-position: top;
+}
+.box7p {
+  background-image: url(images/portrait3.jpeg);
+  background-size: cover;
+  flex: 2;
+  padding: 0px 0px 0px 0px;
+  text-align: left;  
+  margin: 10px 0px 0px 0px;
+  background-position: bottom;
+}
+.box6p {
+  background-image: url(images/portrait12.jpeg);
+  background-size: cover;
+  flex: 2;
+  padding: 0px 0px 0px 0px;
+  text-align: right;
+  margin: 10px 10px 0px 0px;
+  background-position: bottom;
+}
+.box9p {
+  background-image: url(images/portrait9.jpeg);
+  background-size: cover;
+  flex: 2;
+  padding: 200px 0px 150px 0px;
+  text-align: right;
+  margin: 10px 10px 0px 0px;
+  background-position: top;
+}
+.box11p {
+  background-image: url(images/portrait10.jpeg);
+  background-size: 60%;
+  flex: 2;
+  padding: 0px 0px 0px 0px;
+  text-align: right;
+  margin: 10px 10px 0px 0px;
+  background-position: center;
+}
+.box12p {
+  background-image: url(images/portrait2.jpeg);
+  background-size: 235%;
+  flex: 1;
+  padding: 0px 0px 0px 0px;
+  text-align: left;  
+  margin: 10px 0px 0px 0px;
+  background-position: top;
+}
+/* end portraits*/
+
+/* start weddings*/
+.box1 {
+  background-image: url(images/wedd13.jpeg);
+  background-size: cover;
+  flex: 2.2;
+  padding: 200px 0px 150px 0px;
+  text-align: right;
+  margin: 80px 10px 0px 0px;
+  background-position: center;
+}
+.box3 {
+  background-image: url(images/wedd9.jpeg);
+  background-size: cover;
+  flex: 2.2;
+  padding: 0px 0px 0px 0px;
+  text-align: right;
+  margin: 80px 10px 0px 0px;
+  background-position: center;
+}
+.box4 {
+  background-image: url(images/wedd4.jpeg);
+  background-size: cover;
+  flex: 1;
+  padding: 0px 0px 0px 0px;
+  text-align: left;  
+  margin: 80px 0px 0px 0px;
+  background-position: left;
+}
+.box5 {
+  background-image: url(images/wedd15.jpeg);
+  background-size: 125%;
+  flex: 1;
+  padding: 200px 0px 150px 0px;
+  text-align: right;
+  margin: 10px 10px 0px 0px;
+  background-position: center;
+}
+.box7 {
+  background-image: url(images/wedd5.jpeg);
+  background-size: cover;
+  flex: 1.75;
+  padding: 0px 0px 0px 0px;
+  text-align: left;  
+  margin: 10px 0px 0px 0px;
+  background-position: center;
+}
+.box6 {
+  background-image: url(images/wedd14.jpeg);
+  background-size: cover;
+  flex: 2.2;
+  padding: 0px 0px 0px 0px;
+  text-align: right;
+  margin: 10px 10px 0px 0px;
+  background-position: bottom;
+}
+.box8 {
+  background-image: url(images/wedd8.jpeg);
+  background-size: 225%;
+  flex: 1;
+  padding: 0px 0px 0px 0px;
+  text-align: left;  
+  margin: 10px 10px 0px 0px;
+  background-position: bottom;
+}
+.box9 {
+  background-image: url(images/wedd7.jpeg);
+  background-size: cover;
+  flex: 1.5;
+  padding: 200px 0px 150px 0px;
+  text-align: right;
+  margin: 10px 10px 0px 0px;
+  background-position: left;
+}
+.box11 {
+  background-image: url(images/wedd12.jpeg);
+  background-size: cover;
+  flex: 2.2;
+  padding: 0px 0px 0px 0px;
+  text-align: right;
+  margin: 10px 10px 0px 0px;
+  background-position: left;
+}
+.box12 {
+  background-image: url(images/wedd8.jpeg);
+  background-size: cover;
+  flex: 1.25;
+  padding: 0px 0px 0px 0px;
+  text-align: left;  
+  margin: 10px 0px 0px 0px;
+  background-position: center;
+}
+/* end wedding */
+/* start sport */
+.box1s {
+  background-image: url(images/sport1.jpg);
+  background-size: cover;
+  flex: 1.75;
+  padding: 200px 0px 150px 0px;
+  text-align: right;
+  margin: 80px 10px 0px 0px;
+  background-position: top;
+}
+.box3s {
+  background-image: url(images/sport10.jpeg);
+  background-size: cover;
+  flex: 1.75;
+  padding: 0px 0px 0px 0px;
+  text-align: right;
+  margin: 80px 10px 0px 0px;
+  background-position: left;
+}
+.box4s {
+  background-image: url(images/sport15.jpg);
+  background-size: cover;
+  flex: 1.25;
+  padding: 0px 0px 0px 0px;
+  text-align: left;  
+  margin: 80px 0px 0px 0px;
+  background-position: top;
+}
+.box5s {
+  background-image: url(images/sport16.jpg);
+  background-size: cover;
+  flex: 1.25;
+  padding: 200px 0px 150px 0px;
+  text-align: right;
+  margin: 10px 10px 0px 0px;
+  background-position: top;
+}
+.box7s {
+  background-image: url(images/sport5.jpeg);
+  background-size: cover;
+  flex: 1.5;
+  padding: 0px 0px 0px 0px;
+  text-align: left;  
+  margin: 10px 0px 0px 0px;
+  background-position: bottom;
+}
+.box6s {
+  background-image: url(images/sport8.jpg);
+  background-size: cover;
+  flex: 2;
+  padding: 0px 0px 0px 0px;
+  text-align: right;
+  margin: 10px 10px 0px 0px;
+  background-position: bottom;
+}
+.box9s {
+  background-image: url(images/sport6.jpeg);
+  background-size: cover;
+  flex: 1.25;
+  padding: 200px 0px 150px 0px;
+  text-align: right;
+  margin: 10px 10px 0px 0px;
+  background-position: bottom;
+}
+.box11s {
+  background-image: url(images/sport17.jpg);
+  background-size: cover;
+  flex: 2.5;
+  padding: 0px 0px 0px 0px;
+  text-align: right;
+  margin: 10px 10px 0px 0px;
+  background-position: bottom;
+}
+.box12s {
+  background-image: url(images/sport2.jpg);
+  background-size: cover;
+  flex: 1;
+  padding: 0px 0px 0px 0px;
+  text-align: left;  
+  margin: 10px 0px 0px 0px;
+  background-position: bottom;
+}
+/* end sport*/
+
+/* overview */
+
+.box1v {
+  background-image: url(images/portrait4.jpeg);
+  background-size: 118%;
+  flex: 2;
+  padding: 0px 0px 0px 0px;
+  text-align: right;
+  margin: 80px 10px 0px 0px;
+  background-position: left;
+}
+.box2v {
+  background-image: url(images/portrait1.jpeg);
+  background-size: 100%;
+  flex: 1;
+  padding: 0px 0px 0px 0px;
+  text-align: left;  
+  margin: 80px 10px 0px 0px;
+  background-position: center;
+}
+.box3v {
+  background-image: url(images/wedd12.jpeg);
+  background-size: cover;
+  flex: 2;
+  padding: 200px 0px 150px 0px;
+  text-align: right;
+  margin: 80px 0px 0px 0px;
+  background-position: top;
+}
+.email pre {border: 1px solid grey;
+  font-size: 15px;
+text-align: center;
+color: dimgrey;
+margin-top: 10px;
+padding: 5px;
+  font-family: 'Lato', sans-serif;
+}
+/* end overview */
+
+/* start fashion*/
+.box1f {
+  background-image: url(images/fashion6.jpeg);
+  background-size: cover;
+  flex: 2;
+  padding: 200px 0px 150px 0px;
+  text-align: right;
+  margin: 80px 10px 0px 0px;
+  background-position: top;
+}
+.box3f {
+  background-image: url(images/fashion3.jpeg);
+  background-size: cover;
+  flex: 1;
+  padding: 0px 0px 0px 0px;
+  text-align: right;
+  margin: 80px 10px 0px 0px;
+  background-position: top;
+}
+.box4f {
+  background-image: url(images/fashion2.JPG);
+  background-size: cover;
+  flex: 2;
+  padding: 0px 0px 0px 0px;
+  text-align: left;  
+  margin: 80px 0px 0px 0px;
+  background-position: top;
+}
+.box5f {
+  background-image: url(images/fashion8.jpeg);
+  background-size: cover;
+  flex: 2.25;
+  padding: 0px 0px 0px 0px;
+  text-align: right;
+  margin: 10px 0px 0px 0px;
+  background-position: center;
+}
+.box7f {
+  background-image: url(images/fashion7.jpeg);
+  background-size: cover;
+  flex: 1;
+  padding: 200px 0px 150px 0px;
+  text-align: left;  
+  margin: 10px 10px 0px 0px;
+  background-position: top;
+}
+.box6f {
+  background-image: url(images/fashion4.jpeg);
+  background-size: cover;
+  flex: 1;
+  padding: 0px 0px 0px 0px;
+  text-align: right;
+  margin: 10px 10px 0px 0px;
+  background-position: top;
+}
+.box9f {
+  background-image: url(images/fashion10.jpeg);
+  background-size: cover;
+  flex: 2;
+  padding: 200px 0px 150px 0px;
+  text-align: right;
+  margin: 10px 10px 0px 0px;
+  background-position: top;
+}
+.box11f {
+  background-image: url(images/fashion11.jpeg);
+  background-size: cover;
+  flex: 1;
+  padding: 0px 0px 0px 0px;
+  text-align: right;
+  margin: 10px 10px 0px 0px;
+  background-position: center;
+}
+.box12f {
+  background-image: url(images/fashion12A.jpeg);
+  background-size: cover;
+  flex: 2;
+  padding: 0px 0px 0px 0px;
+  text-align: left;  
+  margin: 10px 0px 0px 0px;
+  background-position: bottom;
+}
+/* end fashion*/
